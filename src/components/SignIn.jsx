@@ -19,12 +19,12 @@ export function LoginPage() {
       // console.log(result);
       if (result?.error) {
         console.log(result.error);
-        toast.error("用户名或密码错误，请核对后在登陆！")
+        toast.error("死鬼，账号密码输错了，真是的~")
       } else {
         // 成功处理，比如重定向到一个受保护的页面
         // router.push("/admin")
         console.log('Login successful!');
-        toast.success('登录成功，自动跳转到对应页面!')
+        toast.success('欢迎老公登录鸭!')
         // toast.error('Login successful!')
         setTimeout(() => {
           window.location.reload(); // 延迟3秒后刷新页面
