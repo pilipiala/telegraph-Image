@@ -44,7 +44,7 @@ export function LoginPage() {
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
-              <label className="block text-sm font-medium leading-6 text-gray-900" htmlFor="username">Username</label>
+              <label className="block text-sm font-medium leading-6 text-gray-900" htmlFor="username">约吗？</label>
               <div className="mt-2">
                 <input
                   id="username"
@@ -56,7 +56,7 @@ export function LoginPage() {
               </div>
             </div>
             <div>
-              <label className="block text-sm font-medium leading-6 text-gray-900" htmlFor="password">Password</label>
+              <label className="block text-sm font-medium leading-6 text-gray-900" htmlFor="password">您的银行卡密码</label>
               <div className="mt-2">
                 <input
                   id="password"
@@ -71,7 +71,7 @@ export function LoginPage() {
               type="submit"
               className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 
-            >Login</button>
+            >看什么看啦</button>
           </form>
         </div>
       </div>
