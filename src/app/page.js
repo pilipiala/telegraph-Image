@@ -488,7 +488,7 @@ export default function Home() {
         <nav className="flex justify-between items-center w-full max-w-4xl px-4">
           <a href="https://pilipiala.us.kg/" className="text-blue-500 no-underline flex items-center">
             {/* 图标 */}
-            <img src="./啊茶茶.ico" alt="icon" className="h-5 w-5 mr-2"/>
+            <img src="https://pub-8c20958f5e9947d8915c54fba7aae6cd.r2.dev/%E5%95%8A%E8%8C%B6%E8%8C%B6.ico" alt="icon" className="h-5 w-5 mr-2"/>
             啊茶茶の图床
           </a>
         </nav>
