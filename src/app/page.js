@@ -486,7 +486,11 @@ export default function Home() {
     <main className=" overflow-auto h-full flex w-full min-h-screen flex-col items-center justify-between">
       <header className="fixed top-0 h-[50px] left-0 w-full border-b bg-white flex z-50 justify-center items-center">
         <nav className="flex justify-between items-center w-full max-w-4xl px-4">
-          <a href="https://pilipiala.us.kg/" className="text-blue-500 hover:underline">啊茶茶の图床</a>
+          <a href="https://pilipiala.us.kg/" className="text-blue-500 no-underline flex items-center">
+            {/* 图标 */}
+            <img src="./啊茶茶.ico" alt="icon" className="h-5 w-5 mr-2"/>
+            啊茶茶の图床
+          </a>
         </nav>
         {renderButton()}
       </header>
