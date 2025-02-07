@@ -10,7 +10,7 @@ export default function Footer() {
           className="text-blue-300  hover:text-red-900 ml-1"
           target="_blank"
           rel="noopener noreferrer"
-          >啊茶茶'(゜-゜)つロ 干杯~</Link> </p>
+          >啊茶茶&apos;(゜-゜)つロ 干杯~</Link> </p>
       </div>
     </footer>
   );
